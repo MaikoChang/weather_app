@@ -18,7 +18,7 @@ weather.humidity = {
 }
 const KELVIN = 273.15
 
-const key = "fc61888b0d48be83d3fb53898a59077c";
+const key = "";
 
 if ('geolocation' in navigator){
     navigator.geolocation.getCurrentPosition(setPosition, showError);
